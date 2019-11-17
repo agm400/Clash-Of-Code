@@ -12,6 +12,8 @@ class Solution {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 String x = Integer.toBinaryString(n);
+
+//converts int to bin string
 int y=0;
 for(int i=0;i<x.length();i++){
     if(x.charAt(i)=='1'){
